@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ambooks Login Page</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.jpg">
+  <script src="js/formvalid.js">
+  </script>
+
+  <link rel="stylesheet" href="css/HTML-form1.css">
+
+</head>
+
+
+<body> 
+<form onsubmit="return validate()" method="POST" action="loginpage.jsp">
+         
+    <div class="showcase-content">
+    <h2 style="text-align: center">Ambooks Login Page</h2>  
+    <h1 style="text-align: center"> SIGN IN </h1>   
+    <p>Email  <br>    <input id="umail" placeholder="Enter your email" type="text" size=60 name="Email" required ><br> 
+    <label id="label2" style="color: yellow; visibility: hidden;"> Enter Your Email </label></p><br>      
+    <p>Password <br> <input id="upass"  placeholder="Enter Your Password" type="password" size=60 name="Password" required> <br> 
+    <input type="checkbox" onclick="myFunction()">Show Password <br>
+    <label id="label3" style="color: yellow; visibility: hidden;"> Password too short </label></p> <br>  
+    
+
+    <br> 
+         <button class="btn btn-xl" type="submit">Log In</button>      
+         <br>
+    
+     </div>
+
+
+</form> 
+
+</body>
+
+
+
+</html>

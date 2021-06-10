@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AM Books</title>
+  <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg">
+  <script src="js/formvalid.js">
+  </script>
+
+  <link rel="stylesheet" href="css/HTML-form1.css">
+
+</head>
+
+
+<body> 
+<form onsubmit="return validate()" method="POST" action="registration.jsp">
+         
+    <div class="showcase-content">
+    <h2 style="text-align: center"> AM Books Registration Page </h2> 
+    <h1 style="text-align: center"> SIGN UP </h1>   
+    <p>Name  <br>  <input id="uname" placeholder="Enter Username" type="text" size=60 name="Username" required > <br> 
+    <label id="label1" style="color: yellow; visibility: hidden;"> Enter Your Name </label></p><br>  
+    <p>Email  <br>    <input id="umail" placeholder="Enter your email" type="text" size=60 name="Email" required ><br> 
+    <label id="label2" style="color: yellow; visibility: hidden;"> Enter Your Email </label></p><br>  
+    <p>Password  <br>  <input id="upass"  placeholder="Enter Your Password" type="password" size=60 name="Password" required><br> 
+    <input type="checkbox" onclick="myFunction()">Show Password <br>
+    <label  id="label3" style="color: yellow; visibility: hidden;"> Password too short </label></p><br>    
+    
+
+    <br> 
+         <button class="btn btn-xl" type="submit">Register</button>      
+         <br>
+    
+     </div>
+
+
+</form> 
+
+</body>
+
+
+
+</html>
